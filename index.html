@@ -1,0 +1,18 @@
+ <html>
+     <head>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+        <link rel="stylesheet" href = "index.css">
+        <script src ="index.js"></script>
+     </head>
+   
+    <body onload="init()">
+        <canvas id="can" width="400" height="400"></canvas>
+        <ul class = "colors">
+        <li id="red" onclick="color(this)"></i></li>
+        <li  id="green" onclick="color(this)"></li>
+        <li id="yellow" onclick="color(this)"></li>
+        <li  id="blue" onclick="color(this)"></li>
+    </ul>
+    <button id="download" onclick="download()">Download the PDF</button>
+    </body>
+    </html>
